@@ -20,12 +20,18 @@ public class IfTest {
       System.out.println(number + " < 0");
     }
 
-    if (number > 100 && number < 500) {
+
+    if (isB(number)) {
 
     }
 
     System.out.println("end");
 
+  }
+
+  private static boolean isB(int number) {
+    boolean b = number > 100 && number < 500;
+    return b;
   }
 
 
